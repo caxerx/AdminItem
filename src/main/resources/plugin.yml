@@ -1,0 +1,20 @@
+name: AdminItem
+main: com.caxerx.mc.adminitem.AdminItem
+version: 1.0
+depend: ["ProtocolLib"]
+commands:
+ append:
+  description: "Append AdminItem tag to an item"
+  aliases: "bind"
+ unbind:
+  description: "Unbind an AdminItem"
+permissions:
+  adminitem.bind:
+    description: Bind an item
+    default: OP
+  adminitem.unbind:
+    description: Unbind an item
+    default: OP
+  adminitem.exist:
+    description: Allow item exist in inventory
+    default: OP
